@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import Home from '../src/pages/home'
 import reportWebVitals from './reportWebVitals'
 import { createGlobalStyle } from 'styled-components'
 
@@ -16,7 +16,7 @@ const GlobaStyled = createGlobalStyle`
   }
 
   html, body {
-    heigth: 100%;
+    height: 100%;
   }
 
   body {
@@ -27,7 +27,7 @@ const GlobaStyled = createGlobalStyle`
 ReactDOM.render(
   <React.StrictMode>
     <GlobaStyled />
-    <App />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 )
