@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from '../src/pages/home'
+import Home from 'pages/home'
 import reportWebVitals from './reportWebVitals'
 import { createGlobalStyle } from 'styled-components'
 
@@ -9,6 +9,7 @@ const GlobaStyled = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
   }
 
   html {

@@ -1,9 +1,16 @@
 import React from 'react'
+import Header from 'components/header'
+import { Container, Main, MainTitle } from './styled'
 
 const Home = () => {
   return (
     <div>
-      <h1>Bigasdeiro</h1>
+      <Header />
+      <Container>
+        <Main>
+          <MainTitle>Site em construção</MainTitle>
+        </Main>
+      </Container>
     </div>
   )
 }
