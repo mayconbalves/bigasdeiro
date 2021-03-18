@@ -27,8 +27,18 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test  --coverage --watchAll",
     "eject": "react-scripts eject",
-    "lint": "eslint src --max-warnings=0"
+    "lint": "eslint src --max-warnings=0",
+    "test:watch": "yarn test --watch"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!src/reducers/CombineReducers.js",
+      "!src/Root.js",
+      "!src/reportWebVitals.js",
+      "src/**/*.js"
+    ]
   },
   "husky": {
     "hooks": {
