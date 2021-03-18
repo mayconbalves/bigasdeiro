@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import logo from 'assets/logo.jpg'
 
 export const Container = styled.div`
   display: flex;
@@ -9,14 +8,10 @@ export const Container = styled.div`
 `
 
 export const Main = styled.div`
-  background-image: url(${logo});
-  background-repeat: no-repeat;
-  background-position-x: center;
-  height: 450px;
-  width: 450px;
+  margin: 0 auto;
 `
 
-export const MainTitle = styled.h1`
-  font-size: rem;
-  text-align: center;
+export const MainImg = styled.img`
+  height: 200px;
+  width: 200px;
 `

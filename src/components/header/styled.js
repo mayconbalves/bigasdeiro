@@ -7,6 +7,10 @@ export const Container = styled.div`
   height: 50px;
   justify-content: space-around;
   width: 100%;
+
+  @media (max-width: 780px) {
+    justify-content: center;
+  }
 `
 
 export const HeaderTitle = styled.h1`
@@ -17,6 +21,10 @@ export const HeaderTitle = styled.h1`
 
 export const UlStyled = styled.ul`
   display: flex;
+
+  @media (max-width: 780px) {
+    display: none;
+  }
 `
 
 export const NavItem = styled.li`

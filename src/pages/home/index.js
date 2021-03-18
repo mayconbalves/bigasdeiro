@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from 'components/header'
-import { Container, Main, MainTitle } from './styled'
+import logo from 'assets/logo.jpg'
+import { Container, Main, MainImg } from './styled'
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
       <Header />
       <Container>
         <Main>
-          <MainTitle>Site em construção</MainTitle>
+          <MainImg src={logo} alt="bigasdeiro" />
         </Main>
       </Container>
     </div>
