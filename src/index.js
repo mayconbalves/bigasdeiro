@@ -2,9 +2,31 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+import { createGlobalStyle } from 'styled-components'
+
+const GlobaStyled = createGlobalStyle`
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  html, body {
+    heigth: 100%;
+  }
+
+  body {
+    font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+`
 
 ReactDOM.render(
   <React.StrictMode>
+    <GlobaStyled />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
