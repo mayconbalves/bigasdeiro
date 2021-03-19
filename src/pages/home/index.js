@@ -1,18 +1,18 @@
 import React from 'react'
-import Header from 'components/header'
-import logo from 'assets/logo.jpg'
-import { Container, Main, MainImg } from './styled'
+import Nav from 'components/nav'
+import logo from 'assets/headerlogo.png'
+import { Container, Header, WrapperImg, LogoImg } from './styled'
 
 const Home = () => {
   return (
-    <div>
-      <Header />
-      <Container>
-        <Main>
-          <MainImg src={logo} alt="bigasdeiro" />
-        </Main>
-      </Container>
-    </div>
+    <Container>
+      <Header>
+        <WrapperImg>
+          <LogoImg src={logo} alt="bigasdeiro" />
+        </WrapperImg>
+      </Header>
+      <Nav />
+    </Container>
   )
 }
 
