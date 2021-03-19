@@ -16,8 +16,10 @@ export const Header = styled.header`
   );
 `
 
-export const Main = styled.main`
-  margin: 0 auto;
+export const ProductSlideWrapper = styled.div`
+  height: 400px;
+  margin: 20px auto;
+  width: 80%;
 `
 
 export const WrapperImg = styled.div`

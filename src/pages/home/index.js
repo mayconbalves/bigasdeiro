@@ -1,7 +1,14 @@
 import React from 'react'
 import Nav from 'components/nav'
+import SlideProducts from 'components/products/slideProducts'
 import logo from 'assets/headerlogo.png'
-import { Container, Header, WrapperImg, LogoImg } from './styled'
+import {
+  Container,
+  Header,
+  WrapperImg,
+  LogoImg,
+  ProductSlideWrapper
+} from './styled'
 
 const Home = () => {
   return (
@@ -12,6 +19,9 @@ const Home = () => {
         </WrapperImg>
       </Header>
       <Nav />
+      <ProductSlideWrapper>
+        <SlideProducts />
+      </ProductSlideWrapper>
     </Container>
   )
 }
