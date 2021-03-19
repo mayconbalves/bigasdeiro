@@ -1,10 +1,9 @@
 import React from 'react'
-import { Container, HeaderTitle, NavItem, UlStyled } from './styled'
+import { Container, NavItem, UlStyled } from './styled'
 
 const Header = () => {
   return (
     <Container>
-      <HeaderTitle>Bigasdeiro</HeaderTitle>
       <nav>
         <UlStyled>
           <NavItem>
