@@ -16,7 +16,7 @@ const Header = () => {
             <p>Sobremesas</p>
           </NavItem>
           <NavItem>
-            <p>Sobre nós</p>
+            <p>Sobre</p>
           </NavItem>
         </UlStyled>
       </nav>
