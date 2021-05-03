@@ -20,11 +20,11 @@ const Home = () => {
   return (
     <Container>
       <Header>
-        <WrapperImg>
-          <LogoImg src={logo} alt="bigasdeiro" />
-        </WrapperImg>
+        <Nav />
       </Header>
-      <Nav />
+      <WrapperImg>
+        <LogoImg src={logo} alt="bigasdeiro" />
+      </WrapperImg>
       <ProductGalery>
         <ProductGaleryWrapper>
           <ImgStyled src={Bolo} alt="#" />
