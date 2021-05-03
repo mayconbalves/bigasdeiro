@@ -32,6 +32,8 @@ export const ProductGaleryWrapper = styled.section`
 export const WrapperImg = styled.div`
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 50px;
 `
 
 export const ImgStyled = styled.img`
