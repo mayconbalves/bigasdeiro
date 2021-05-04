@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Home from 'pages/home'
 import reportWebVitals from './reportWebVitals'
 import { createGlobalStyle } from 'styled-components'
+import Helmet from 'components/helmet'
 
 const GlobaStyled = createGlobalStyle`
   * {
@@ -28,6 +29,7 @@ const GlobaStyled = createGlobalStyle`
 ReactDOM.render(
   <React.StrictMode>
     <GlobaStyled />
+    <Helmet />
     <Home />
   </React.StrictMode>,
   document.getElementById('root')
